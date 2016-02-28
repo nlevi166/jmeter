@@ -135,7 +135,7 @@
                 <threadCounts>true</threadCounts>
               </value>
             </objProp>
-            <stringProp name="filename">..\jmeter.txt</stringProp>
+            <stringProp name="filename">C:\apache-jmeter-2.13\TestResults\jmeter.txt</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
@@ -409,6 +409,7 @@
                 <responseDataOnError>false</responseDataOnError>
                 <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
                 <assertionsResultsToSave>0</assertionsResultsToSave>
+                <threadCounts>true</threadCounts>
               </value>
             </objProp>
             <stringProp name="filename">D:\TestResults\jmeter.txt</stringProp>

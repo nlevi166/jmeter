@@ -1,0 +1,9 @@
+test_name,domain,url,response_code,response_text
+Front Server - ConduitOk,api-searchfuel.codefuel.com,servicecheck,200,ConduitOk
+Front Server - info,api-searchfuel.codefuel.com,info,200,"{""name"":""FrontServer"",""version"":""1.2.113""}"
+Front Server -  404  - Not valid path /stam,api-searchfuel.codefuel.com,/stam,404,"{""status"":404,""message"":""Route Not Found""}"
+Front Server -  404  - Not valid path /servicecheck/stam,api-searchfuel.codefuel.com,servicecheck/stam,404,"{""status"":404,""message"":""Route Not Found""}"
+Front Server -  404  - Not valid path /info/stam,api-searchfuel.codefuel.com,info/stam,404,"{""status"":404,""message"":""Route Not Found""}"
+Front Server -  500 - Servicecheck - Service FAIL to pass self-check routines,api-searchfuel.codefuel.com,servicecheck,500,error 500
+Front Server - 500 - Info - Unexpected error -  Service is down,api-searchfuel.codefuel.com,servicecheck,500,error 500
+Front Server - 500 - Info - Unexpected error - DB is Down,api-searchfuel.codefuel.com,info,500,error 500
